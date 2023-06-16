@@ -1,0 +1,57 @@
+INDEX
+<?php include 'db.php';
+if (isset($_POST['submit'])){
+    
+    $nome = $_POST['nome'];
+    $email = $_POST['email'];
+    $telefone = $_POST['telefone'];
+    $dtnasc = $_POST['dtnasc'];
+    $cidade = $_POST['cidade'];
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body background="backgrounded.jpg">
+    <form action="" method="POST">
+    <section class="container">
+    <div class="cadastro">cadastro</div>
+
+    <div class="nome">Nome
+    <input class="Item" type="text" name="nome"
+    placeholder="Nome"></div>
+
+    <div class="email">Email
+    <input class="Item" type="text" name="email"
+    placeholder="Email"></div>
+
+    <div class="telefone">Telefone
+    <input class="Item" type="text" name="telefone"
+    placeholder="Telefone"></div>
+    
+    <div class="data">Data de Nascimento
+    <input class="Item" type="text" name="datadenascimento"
+    placeholder="Data de Nascimento"></div>
+
+    <div class="cidade">Cidade
+    <input class="Item" type="text" name="cidade"
+    placeholder="Cidade"></div>
+    
+    <button type="submit"><a href="lista.php">Enviar</a></button>
+
+
+</section>
+</form>
+
+</body>
+</html>
+
+
+td th table
